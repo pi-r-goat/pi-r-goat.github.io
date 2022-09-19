@@ -1,0 +1,23 @@
+/*
+sélecteur {
+    propriété : valeur;
+}
+*/
+
+
+body{
+    background: linear-gradient(45deg, rgb(77, 5, 0);
+    color: rgb(28, 8, 116);)
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p,a{
+    color:rgb(0, 240, 200);
+}
+
+.wrap{
+    background:rgb(255, 0, 98)
+}
+.intro{
+    font-size: 32px;
+}

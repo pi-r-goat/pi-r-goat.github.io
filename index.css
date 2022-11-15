@@ -7,7 +7,7 @@
     font-family: 'arimo', sans-serif;
     color: rgb(255, 255, 255);
     line-height: 1.5;
-    background-color: orangered;
+    background-color: rgb(255, 255, 255);
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 15px; 
@@ -36,17 +36,18 @@
     .nav {
     display: block;
     position:fixed;
-    background-color: dimgray;
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
     min-width: 15%;
     margin-right: 80%;
     margin-left: 5px;
     padding: 20px;
+
     
     }
     .content{
     display: grid;
-    background-color: dimgray;
+    background-color: rgb(0, 0, 0);
     border-radius: 5px; 
     max-width: 85%;
     margin-left: 20%;
@@ -56,4 +57,45 @@
     gap:10px;
     block-size: auto;
     text-decoration: none;
+    }
+
+    @media(max-width:400px) {
+    .nav{
+        display: block;
+        position: fixed;
+        margin-right: 5px;
+        margin-left: 5px;
+
+
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 400x;
+
+    }
+        
+    }
+    @media(max-width:800px){
+    .nav{
+        display: block;
+        position: fixed;
+        
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    }
+    @media(max-width:1280){
+    .nav{
+        display: block;
+        position: fixed;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
     }

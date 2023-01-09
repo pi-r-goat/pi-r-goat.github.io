@@ -1,0 +1,140 @@
+@font-face{
+    font-family: 'arimo';
+    src: url(font/Arimo-Italic-VariableFont_wght.ttf) format('woff2');
+    src: url(font/Arimo-VariableFont_wght.ttf) format('truetype');
+}
+img {
+  width: 100%;
+  display: block;
+  height:auto;
+  margin-bottom: 12px;
+}
+
+.header_content{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: baseline;
+}
+
+.pictures{
+    padding-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-width: 1700px;
+    gap: 10px;
+    display: grid;
+    margin-top: 70px;
+
+    
+}
+
+.mosaique{
+    padding-top: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 0px;
+    gap: 10px;
+    display: grid;
+    margin-top: 0px;
+} 
+
+body {
+  font-family: 'arimo', sans-serif;
+  background-color: black;
+  color:white;
+}
+
+h1{
+    font-size: 80px;
+    margin-top: -10px;
+}
+
+h1:hover{
+    font-size: 80px;
+    margin-top: -10px;
+    font-style: italic; 
+}
+
+h2{
+    font-size: 400px;
+    margin-top: -100px;
+    margin-bottom: -100px;
+    margin-right: 50px;
+}
+
+h2:hover{
+    font-size: 400px;
+    font-style: italic;
+    margin-top: -100px;
+    margin-bottom: -100px;
+    margin-right: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h3:hover{
+    font-size: 30px;
+    font-style: italic;
+}
+
+h4{
+    font-size: 300px;
+    margin-top: -300px;
+    margin-left: 50px;
+    margin-bottom: -200px;
+}
+
+h4:hover{
+    font-style: italic;
+    font-size: 300px;
+    margin-left: 50px;
+}
+
+.temps {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.texte_intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 60px;
+}
+
+.gros_texte {
+    font-size:400px;
+    grid-template-columns: 1fr auto;
+    
+}
+.contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*gap: 20px;
+*/
+}
+
+.affiche {
+    width: 70%;
+    margin-left: 250px;   
+    margin-top: -120px;
+}
+
+.text {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mail {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.mosaique {
+    margin-top: -20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
